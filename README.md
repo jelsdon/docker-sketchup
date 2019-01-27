@@ -1,5 +1,5 @@
 # docker-sketchup
-Docker sketchup container - with printer support
+Docker sketchup container - for Dell XPS with printer support
 
 
 `$ sudo docker run --rm --privileged -v="/etc/printcap:/etc/printcap:rw" -v="/var/run/cups/:/var/run/cups:rw" -v="/tmp/.X11-unix:/tmp/.X11-unix:rw" -e "DISPLAY=unix:0.0" -i -t fedoraglx /bin/bash`
