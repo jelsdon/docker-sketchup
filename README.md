@@ -9,6 +9,6 @@ Once running, install sketchup via
 
 # Notes
 
-Winetricks install launches GUI -- no support for bind mounting X sockets in during docker build so post-install task (TODO entrypoint script)
-Wine home directory to be volume mounted and bypass install (TODO entrypoint script)
-Set HKEY_CURRENT_USER\Software\Google\SketchUp6\GLConfig\Display\HW_OK to 1 (TODO entrypoint script)
+* Winetricks install launches GUI -- no support for bind mounting X sockets in during docker build so post-install task (TODO entrypoint script)
+* Wine home directory to be volume mounted and bypass install (TODO entrypoint script)
+* Set HKEY_CURRENT_USER\Software\Google\SketchUp6\GLConfig\Display\HW_OK to 1 (TODO entrypoint script)
